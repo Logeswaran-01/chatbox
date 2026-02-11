@@ -2,29 +2,115 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Modern SaaS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&family=Audiowide&display=swap" rel="stylesheet">
-
-  <title>Music Player UI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="whole">
-    <h1>Music Player</h1>
-    <div class="image">
+<body class="text-center bg-slate-800 ">
+  <nav class="flex justify-between items-center px-6 py-7 mx-auto max-w-7xl ">
+     <h1 class="text-3xl font-bold text-indigo-500" >
+      Sassify
+     </h1>
+     <div class="hidden md:flex justify-center space-x-8 text-2xl text-gray-500">
+      <a href="#" class="text-indigo-50">About</a>
+      <a href="#" class="text-indigo-50">Pricing</a>
+      <a href="#" class="text-indigo-50">Tools</a>
+    </div>
+    <button class=" btn btn-primary text-xl text-indigo-50 bg-indigo-600 rounded-xl px-4 py-2 hover:bg-indigo-700 transition">Get started</button>
 
-    </div>
-    <h3>Midnight Vibes</h3>
-    <p>Loges Beats</p>
-    <div class="line">
-      <div class="line1"></div>
-    </div>
+  </nav>
 
-    <div class="main-btn">
-      <div class="btn"><span>⏮</span></div>
-      <div class="btn play"><span>▶</span></div>
-      <div class="btn"><span>⏭</span></div>
+  <section class="text-center  mt-28 px-20 py-6 ">
+    
+      <h2 class="text-4xl  md:text-6xl md:mb-0 text-indigo-50 font-bold">
+        Build Your Product
+      </h2><br>
+      <span class="text-2xl sm:mb-2 md:text-4xl text-indigo-500 ">Faster than ever</span>
+     <p class="text-indigo-50  md:text-2xl mt-10">The ultimate SaaS platform to manage, scale, and grow your business effortlessly.</p>
+     <div class="mt-10 space-x-8"><button class="btn bg-indigo-600 text-indigo-50 px-5 py-3 rounded-xl">Start the free trail</button>
+      <button class="btn border boerder-gray-800 hover:bg-gray-900 px-5 text-indigo-50 py-3 rounded-xl">Learn more</button>
     </div>
+  </section>
+  
+<section class="mt-24  bg-gray-900 py-20">
+     <div>
+      <h1 class="text-3xl font-bold text-indigo-50 mb-9">Powerful Features</h1>
+      <div class="grid md:grid-cols-3 gap-8 p-5">
+        <div class="bg-gray-800 p-8 rounded-2xl hover:scale-105 transition">
+          <div class="text-indigo-500 text-3xl mb-4">⚡</div>
+          <h4 class="text-2xl font-semibold mb-3">Fast Performance</h4>
+          <p class="text-gray-400">Optimized infrastructure ensures blazing fast speeds.</p>
+        </div>
+
+        <div class="bg-gray-800 p-8 rounded-2xl hover:scale-105 transition">
+          <div class="text-indigo-500 text-3xl mb-4">🔒</div>
+          <h4 class="text-2xl font-semibold mb-3">Secure Platform</h4>
+          <p class="text-gray-400">Enterprise-grade security for complete protection.</p>
+        </div>
+
+        <div class="bg-gray-800 p-8 rounded-2xl hover:scale-105 transition">
+          <div class="text-indigo-500 text-3xl mb-4">📊</div>
+          <h4 class="text-2xl font-semibold mb-3">Analytics</h4>
+          <p class="text-gray-400">Real-time insights to grow your business smarter.</p>
+        </div>
+      </div>
+     </div>
+</section>
+<section class="mt-10 bg-slate-800 py-20 text-indigo-50">
+  <div class="max-w-6xl mx-auto text-center px-8">
+     <h3 class="text-3xl font-bold mb-10 text-indigo-50">Simple pricing</h3>
+     <div class="grid md:grid-cols-3 gap-10">
+
+        <div class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:scale-105 transition">
+          <h4 class="text-xl font-semibold mb-4">Starter</h4>
+          <p class="text-4xl font-bold mb-4">$19<span class="text-lg">/mo</span></p>
+          <ul class="text-gray-400 space-y-2 mb-6">
+            <li>✔ Basic Features</li>
+            <li>✔ Email Support</li>
+            <li>✔ 5 Projects</li>
+          </ul>
+          <button class="w-full bg-indigo-600 py-3 rounded-xl hover:bg-indigo-700">
+            Choose Plan
+          </button>
+        </div>
+
+        <div class="bg-indigo-600 p-8 rounded-2xl scale-105 shadow-2xl hover:scale-110 transition">
+          <h4 class="text-xl font-semibold mb-4">Pro</h4>
+          <p class="text-4xl font-bold mb-4">$49<span class="text-lg">/mo</span></p>
+          <ul class="space-y-2 mb-6">
+            <li>✔ All Starter Features</li>
+            <li>✔ Priority Support</li>
+            <li>✔ Unlimited Projects</li>
+          </ul>
+          <button class="w-full bg-white text-indigo-600 py-3 rounded-xl hover:bg-gray-200">
+            Most Popular
+          </button>
+        </div>
+
+        <div class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:scale-105 transition">
+          <h4 class="text-xl font-semibold mb-4">Enterprise</h4>
+          <p class="text-4xl font-bold mb-4">$99<span class="text-lg">/mo</span></p>
+          <ul class="text-gray-400 space-y-2 mb-6">
+            <li>✔ Custom Solutions</li>
+            <li>✔ Dedicated Support</li>
+            <li>✔ Advanced Analytics</li>
+          </ul>
+          <button class="w-full bg-indigo-600 py-3 rounded-xl hover:bg-indigo-700">
+            Contact Sales
+          </button>
+        </div>
+
+      </div>
   </div>
+
+</section>
+
+<section class="bg-indigo-500 mt-10 p-20">
+  <h3 class="text-indigo-50 text-3xl font-semibold mb-10">Ready to scale your business</h3>
+  <button class="rounded-2xl text-2xl text-indigo-500 font-semibold btn px-6 bg-white py-3">Get start today</button>
+</section>
+ <footer class="py-8 text-center text-gray-500 bg-gray-950 border-t border-gray-800">
+    © 2026 SaaSify. All rights reserved.
+  </footer>
 </body>
 </html>
